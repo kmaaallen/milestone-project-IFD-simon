@@ -26,24 +26,32 @@ h1, p{
     background-color:#ff0000;
     margin-top:50px;
 }
-
-
 .yellow-square{
     background-color:#ffd700;
 }
-
-
-
 .green-square{
     background-color:#008000;
 }
-
-
-
 .blue-square{
     background-color:#0000e5;
      margin-top:50px;
 }
+
+
+.red-light{
+    background-color:#ff7f7f;
+}
+.yellow-light{
+    background-color:#ffef99;
+}
+.green-light{
+    background-color: #7fbf7f;
+}
+.blue-light{
+    background-color:#6666ef;
+}
+
+
 
 
 button{

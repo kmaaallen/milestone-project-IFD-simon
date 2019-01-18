@@ -45,6 +45,11 @@ The game needs to iterate through the gameSequence and link each value with its 
 in the game sequence array - the red square does something. Encompass this using a new helper function called displaySequence().<br>
 The displaySequence() function will be called within the newRound() function.
 
+#### The colored squares have to do something when called by displaySequence function
+I have created four more helper functions (one for each colour) that will add a class to the relevant square.<br>
+The class will change the background color of the square to a lighter one to indicate it has been called to the player.<br>
+The displaySequence function will call these color helper functions.
+
 
 
 ### The player will expect to be able to copy that sequence by pressing the coloured squares

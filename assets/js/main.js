@@ -50,12 +50,25 @@ function displaySequence(){
     let i = 0;
     for (i; i < gameSequence.length; i++)
     if (gameSequence[i] === 1){
-        // do something to red square
+       return  red();
     } else if (gameSequence[i] === 2){
-        // do something to yellow square
+        return yellow();
     } else if (gameSequence[i] === 3){
-        // do something to green square
+        return green();
     } else {
-        // do something to blue square
+        return blue();
     }
+}
+
+function red(){
+    $(document.getElementById('1')).addClass('red-light');
+}
+function yellow(){
+    $(document.getElementById('2')).addClass('yellow-light');
+}
+function green(){
+    $(document.getElementById('3')).addClass('green-light');
+}
+function blue(){
+    $(document.getElementById('4')).addClass('blue-light');
 }
