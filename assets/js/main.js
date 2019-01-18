@@ -1,16 +1,20 @@
 // --------------------------Variables------------------------------------------
-powerStatus = false;
+let powerStatus = false;
 
 
 // --------------------------Main game functions--------------------------------
-function powerChange(){
-     if (powerStatus == false) {
-        return powerStatus = true;
+function powerChange() {
+    if (powerStatus == false) {
+        powerStatus = true;
+        document.getElementById('display').innerHTML = 'Ready';
     }
     else {
-        return powerStatus = false;
+        powerStatus = false;
+        document.getElementById('display').innerHTML = '';
     }
 }
+
+
 
 
 // --------------------------Helper functions-----------------------------------

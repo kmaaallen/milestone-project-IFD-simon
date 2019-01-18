@@ -15,6 +15,10 @@ When the player clicks the power button it should trigger a function that toggle
 An onclick event can be used in the HTML to trigger a function 'powerChange()' defined in script.<br>
 Within powerChange() function, game must recognise current status of power and convert to opposite.
 
+#### When the power status is ON (i.e the game is on) there should be some indication to player that this is so
+When power is ON the game should display a visual indicator<br>
+This will be displayed in display box - a 'ready' message will show to indicate the game is ready to be started.
+
 ### The player will start the game (by pressing the start button)
 ### The player will expect to see which round they are on
 ### The player will expect to see/hear a sequence of length corresponding to the round they are on (the count)
