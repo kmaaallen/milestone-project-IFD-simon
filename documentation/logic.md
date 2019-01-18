@@ -48,9 +48,13 @@ The displaySequence() function will be called within the newRound() function.
 #### The colored squares have to do something when called by displaySequence function
 I have created four more helper functions (one for each colour) that will add a class to the relevant square.<br>
 The class will change the background color of the square to a lighter one to indicate it has been called to the player.<br>
-The displaySequence function will call these color helper functions.
+The displaySequence function will call these color helper functions.<br>
 
+Then the lighter background colour has to be removed (to give 'flashing' type animation).<br>
+Have to use timeout method to call a function that removes light-color class after half a second.<br>
+We can add this functionality into the red,yellow,green and blue functions already specified.<br>
 
+The sequence should loop until the player enters some input by clicking a button.<br>
 
 ### The player will expect to be able to copy that sequence by pressing the coloured squares
 ### In response to a wrong input, the player will expect to be shown the sequence again (strict mode off) or restart the game with a new sequence (strict mode on)
