@@ -28,11 +28,11 @@ function newGame(){
         document.getElementById('display').innerHTML = count;
         let gameSequence = [];
         let playerSequence = [];
-        newRound();
+        newRound(count);
     }
 
-function newRound(){
-    
+function newRound(count){
+    generateSequence();
 }
 
 
@@ -40,3 +40,7 @@ function newRound(){
 
 
 // --------------------------Helper functions-----------------------------------
+
+function generateSequence(){
+    gameSequence.push(Math.floor(Math.random()*4 +1));
+}

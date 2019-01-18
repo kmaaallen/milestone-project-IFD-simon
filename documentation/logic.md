@@ -35,6 +35,11 @@ If this is the case, game variables should be set to start positions <br>
 When game is initiated via newGame function display should show count value (i.e what round the plaer is on)
 
 ### The player will expect to see/hear a sequence of length corresponding to the round they are on (the count)
+#### The game will have to generate a random sequence between the numbers 1 and 4
+For this a generateSequence() helper function is created which pushes a new random number from 1 - 4 into the gameSequence array
+each time it is called. This helper function is placed within the newRound() function.
+
+
 ### The player will expect to be able to copy that sequence by pressing the coloured squares
 ### In response to a wrong input, the player will expect to be shown the sequence again (strict mode off) or restart the game with a new sequence (strict mode on)
 ### In response to a correct input (not on the final round) the player will expect to be taken to the next round
