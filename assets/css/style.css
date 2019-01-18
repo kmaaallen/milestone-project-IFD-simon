@@ -44,3 +44,18 @@ h1, p{
     background-color:#0000e5;
      margin-top:50px;
 }
+
+
+button{
+    width:100px;
+    height:50px;
+    background-color:#fff;
+    color:#000;
+}
+
+#counter-display{
+    width:100px;
+    height:100px;
+    background-color:#fff;
+    color:#000;
+}
