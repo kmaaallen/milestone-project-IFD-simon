@@ -39,6 +39,13 @@ When game is initiated via newGame function display should show count value (i.e
 For this a generateSequence() helper function is created which pushes a new random number from 1 - 4 into the gameSequence array
 each time it is called. This helper function is placed within the newRound() function.
 
+#### The game will have to equate the numbers in the gameSequence array to colored squares the user sees and display a visual and sound change to the player
+Each colored square has been given a unique ID (red = 1, yellow = 2, green = 3, blue = 4). <br>
+The game needs to iterate through the gameSequence and link each value with its corresponding color, that means when it comes across a '1'
+in the game sequence array - the red square does something. Encompass this using a new helper function called displaySequence().<br>
+The displaySequence() function will be called within the newRound() function.
+
+
 
 ### The player will expect to be able to copy that sequence by pressing the coloured squares
 ### In response to a wrong input, the player will expect to be shown the sequence again (strict mode off) or restart the game with a new sequence (strict mode on)

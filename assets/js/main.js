@@ -33,6 +33,7 @@ function newGame(){
 
 function newRound(count){
     generateSequence();
+    displaySequence();
 }
 
 
@@ -43,4 +44,18 @@ function newRound(count){
 
 function generateSequence(){
     gameSequence.push(Math.floor(Math.random()*4 +1));
+}
+
+function displaySequence(){
+    let i = 0;
+    for (i; i < gameSequence.length; i++)
+    if (gameSequence[i] === 1){
+        // do something to red square
+    } else if (gameSequence[i] === 2){
+        // do something to yellow square
+    } else if (gameSequence[i] === 3){
+        // do something to green square
+    } else {
+        // do something to blue square
+    }
 }
