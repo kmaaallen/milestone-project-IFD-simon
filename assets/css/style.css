@@ -8,6 +8,13 @@ div{
     display:inline-block;
 }
 
+h1, p{
+    color:#fff;
+    text-align:center;
+}
+
+
+
 .game-field{
     display: flex;
     width:100%;
@@ -17,7 +24,7 @@ div{
 
 .red-square{
     background-color:#ff0000;
-    margin-top:150px;
+    margin-top:50px;
 }
 
 
@@ -35,5 +42,5 @@ div{
 
 .blue-square{
     background-color:#0000e5;
-     margin-top:150px;
+     margin-top:50px;
 }
