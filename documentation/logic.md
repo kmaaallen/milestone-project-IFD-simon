@@ -20,6 +20,17 @@ When power is ON the game should display a visual indicator<br>
 This will be displayed in display box - a 'ready' message will show to indicate the game is ready to be started.
 
 ### The player will start the game (by pressing the start button)
+#### Game must recognise when start button is clicked
+Game uses an event listener to hear if start button is clicked. 
+
+#### Game must initiate game start
+The game should only start IF the power is ON and the start button has been clicked.<br>
+First part of this function should check if power is ON and start button has been clicked to BOTH be true before executing rest of code.<br>
+If this is the case, game variables should be set to start positions <br>
+'count' (the number of rounds) is set to an initial value of 1 (this newGame function will only ever be called for very first round)<br>
+'gameSequence' is set to an empty array (this is the sequence the player is expected to copy)<br>
+'playerSequence' is set to an empty array (this is the sequence the player inputs for comparison)<br>
+
 ### The player will expect to see which round they are on
 ### The player will expect to see/hear a sequence of length corresponding to the round they are on (the count)
 ### The player will expect to be able to copy that sequence by pressing the coloured squares
