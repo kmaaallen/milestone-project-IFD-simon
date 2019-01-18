@@ -1,5 +1,8 @@
 // --------------------------Variables------------------------------------------
 let powerStatus = false;
+let counter = 0;
+let gameSequence = [];
+let playerSequence = [];
 
 
 // --------------------------Main game functions--------------------------------
