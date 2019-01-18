@@ -32,6 +32,8 @@ If this is the case, game variables should be set to start positions <br>
 'playerSequence' is set to an empty array (this is the sequence the player inputs for comparison)<br>
 
 ### The player will expect to see which round they are on
+When game is initiated via newGame function display should show count value (i.e what round the plaer is on)
+
 ### The player will expect to see/hear a sequence of length corresponding to the round they are on (the count)
 ### The player will expect to be able to copy that sequence by pressing the coloured squares
 ### In response to a wrong input, the player will expect to be shown the sequence again (strict mode off) or restart the game with a new sequence (strict mode on)

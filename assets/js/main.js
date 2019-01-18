@@ -25,10 +25,15 @@ document.getElementById('start').addEventListener('click', function() {
 
 function newGame(){
         let count = 1;
+        document.getElementById('display').innerHTML = count;
         let gameSequence = [];
         let playerSequence = [];
         newRound();
     }
+
+function newRound(){
+    
+}
 
 
 
